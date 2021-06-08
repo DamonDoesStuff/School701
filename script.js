@@ -3,7 +3,7 @@ let userguess = 0
 
 document.getElementById('button').addEventListener('click', randomizer)
 
-function randomizer () {
+ function randomizer () {
 
   userguess = document.getElementById('creeper').value
   userguess = parseInt(userguess)
@@ -12,6 +12,5 @@ function randomizer () {
 
   if (userguess === randomnumber) {
     document.getElementById('steve').innerHTML = "Congrats, You Are Big Brain!!!"
-
-  }
+    }
 }
