@@ -10,5 +10,5 @@ function randomizer () {
   randomnumber = parseInt(randomnumber)
   if (userguess === randomnumber) {
     document.getElementById('steve').innerHTML = "Congrats, You Are Big Brain!!!"
-    }
   }
+}
